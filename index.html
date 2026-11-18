@@ -142,10 +142,10 @@ footer a{color:var(--muted)}
   <div class="gear">
     <div><h3>PS5 and PS5 Pro</h3>
       <ul><li>M.2 NVMe SSD, PCIe Gen4</li><li>5,500 MB/s read or faster</li><li>Heatsink built in or added</li><li>2 TB leaves room for GTA VI and your other big games</li></ul>
-      <a class="btn aff" data-q="ps5 m.2 ssd heatsink 2tb" href="https://www.amazon.com/s?k=ps5+m.2+ssd+heatsink+2tb" rel="sponsored noopener" target="_blank">See PS5 SSDs</a></div>
+      <a class="btn aff" data-q="ps5 m.2 ssd heatsink 2tb" href="https://www.amazon.com/s?k=ps5+m.2+ssd+heatsink+2tb&tag=willitfit06-20" rel="sponsored noopener" target="_blank">See PS5 SSDs</a></div>
     <div><h3>Xbox Series X and S</h3>
       <ul><li>Only a Storage Expansion Card runs Series games from extra storage</li><li>Plugs into the slot on the back, no screwdriver</li><li>Series S owners feel the squeeze first</li></ul>
-      <a class="btn aff" data-q="xbox series storage expansion card" href="https://www.amazon.com/s?k=xbox+series+storage+expansion+card" rel="sponsored noopener" target="_blank">See expansion cards</a></div>
+      <a class="btn aff" data-q="xbox series storage expansion card" href="https://www.amazon.com/s?k=xbox+series+storage+expansion+card&tag=willitfit06-20" rel="sponsored noopener" target="_blank">See expansion cards</a></div>
   </div>
   <p class="muted">Sony's full drive rules are on PlayStation's support site. Check them before you buy.</p>
 </section>
@@ -176,9 +176,9 @@ footer a{color:var(--muted)}
 </script>
 <script>
 (function(){
-  var AFFILIATE_TAG = ""; // Fro's Amazon Associates tag goes here, e.g. "name-20"
+  var AFFILIATE_TAG = "willitfit06-20"; // Fro's Amazon Associates store ID
   var GAME_GB = 212, US_UNLOCK = Date.UTC(2026,10,19,5,0,0);
-  if (AFFILIATE_TAG) document.querySelectorAll("a.aff").forEach(function(a){ a.href += "&tag=" + encodeURIComponent(AFFILIATE_TAG); });
+  if (AFFILIATE_TAG) document.querySelectorAll("a.aff").forEach(function(a){ if (a.href.indexOf("tag=") < 0) a.href += "&tag=" + encodeURIComponent(AFFILIATE_TAG); });
   var $ = function(id){ return document.getElementById(id); };
   function tick(){
     var ms = US_UNLOCK - Date.now();
