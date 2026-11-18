@@ -93,6 +93,12 @@ footer{font-size:13px;color:var(--muted);display:flex;flex-direction:column;gap:
 footer a{color:var(--muted)}
 .kit{text-align:center;font-size:15px;color:var(--ink)}
 .kit a{color:var(--pink);font-weight:600}
+.kits{text-align:center;align-items:center}
+.kits .deal{font-family:var(--f-display);font-size:22px;color:var(--gold);text-shadow:0 0 10px rgba(255,210,63,.5)}
+.kits .deal s{color:var(--muted);font-size:16px;text-shadow:none;margin-right:6px}
+.kits .kitlist{list-style:none;padding:0;align-items:center}
+.kitlist a{color:var(--pink);font-weight:600}
+.kits .btn{align-self:center}
 .maker{font-family:var(--f-display);font-size:14px;letter-spacing:.08em;color:var(--cyan);text-shadow:0 0 8px rgba(127,246,255,.6)}
 @media (max-width:520px){th,td{padding:8px 6px}td{font-size:14px;white-space:normal}.hero{padding-bottom:230px}.hero .palm.l{height:62%;left:-34px}.hero .palm.r{height:50%;right:-40px}}
 @media (prefers-reduced-motion:reduce){*{transition:none!important}}
@@ -201,7 +207,20 @@ footer a{color:var(--muted)}
   <details><summary>Is GTA VI on PC?</summary><p>Not at launch. It's PS5 and Xbox Series X|S only, and there's no PC date yet.</p></details>
 </section>
 
-<p class="kit">Streaming the launch? Our <a href="https://dqfixer.gumroad.com/l/neon-coast">Neon Coast stream kit</a> has overlays and scenes in this same neon look.</p>
+<section id="kits" class="kits" aria-labelledby="h-kits">
+  <h2 id="h-kits">Streaming the launch? Get the Miami Bundle</h2>
+  <p>All 5 Neon Coast stream kits in one download: overlays, scenes, animated loops, alerts, emotes and sub badges in this same neon Miami look.</p>
+  <p class="deal"><s>$38</s> <b>$19+</b> pay what you want</p>
+  <a class="btn" href="https://dqfixer.gumroad.com/l/miami-bundle" rel="noopener" target="_blank">Get the Miami Bundle</a>
+  <p class="muted">Or grab one kit:</p>
+  <ul class="kitlist">
+    <li><a href="https://dqfixer.gumroad.com/l/neon-coast" rel="noopener" target="_blank">Neon Coast stream kit</a> $7+</li>
+    <li><a href="https://dqfixer.gumroad.com/l/night-drive" rel="noopener" target="_blank">Night Drive kit</a> $7+</li>
+    <li><a href="https://dqfixer.gumroad.com/l/sunset-cruise" rel="noopener" target="_blank">Sunset Cruise kit</a> $7+</li>
+    <li><a href="https://dqfixer.gumroad.com/l/neon-coast-animated" rel="noopener" target="_blank">Animated scenes and alerts</a> $12+</li>
+    <li><a href="https://dqfixer.gumroad.com/l/neon-coast-emotes" rel="noopener" target="_blank">Emotes and sub badges</a> $5+</li>
+  </ul>
+</section>
 
 <footer>
   <p class="maker">Made by Neon Coast Studio&trade;</p>
