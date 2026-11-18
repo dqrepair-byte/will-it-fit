@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://dqrepair-byte.github.io/will-it-fit/sitemap.xml

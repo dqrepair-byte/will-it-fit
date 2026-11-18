@@ -1,0 +1,218 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Will GTA VI Fit? Storage, Unlock Time and Download Size</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<meta name="description" content="Will GTA VI fit on your PS5 or Xbox? Check storage, unlock time, download time and what to buy if you're out of space.">
+<link rel="canonical" href="https://dqrepair-byte.github.io/will-it-fit/">
+<meta name="theme-color" content="#e0533d">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Will GTA VI fit on your console?">
+<meta property="og:description" content="Storage check, unlock time, download time and what to buy if your PS5 or Xbox is out of space.">
+<meta property="og:url" content="https://dqrepair-byte.github.io/will-it-fit/">
+<meta name="twitter:card" content="summary">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%231c2230'/%3E%3Crect x='6' y='18' width='20' height='8' rx='2' fill='%23e0533d'/%3E%3Crect x='6' y='8' width='20' height='8' rx='2' fill='%2311807a'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@500&display=swap">
+<style>
+/* Layout: single-column spec sheet, one tool card per question, read top to bottom on a phone */
+:root{
+  --bg:#f6f4ef; --surface:#ffffff; --ink:#1c2230; --muted:#5d6577; --line:#dcd8cf;
+  --accent:#e0533d; --accent-ink:#ffffff; --teal:#11807a; --warn:#b5651d; --bad:#c23b2a; --good:#11807a;
+  --bar-sys:#c9c4b8; --bar-game:#e0533d; --bar-free:#11807a33;
+  --f-display:"Barlow Condensed","Arial Narrow",Arial,sans-serif;
+  --f-body:Inter,system-ui,-apple-system,"Segoe UI",sans-serif;
+  --f-mono:"JetBrains Mono",ui-monospace,Menlo,Consolas,monospace;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#12161f; --surface:#1a2030; --ink:#ebe8e1; --muted:#a3aabb; --line:#2c3446;
+  --accent:#f0705a; --accent-ink:#12161f; --teal:#3fbfb6; --warn:#e3a05b; --bad:#f07b6a; --good:#3fbfb6;
+  --bar-sys:#3a4358; --bar-game:#f0705a; --bar-free:#3fbfb633; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#12161f; --surface:#1a2030; --ink:#ebe8e1; --muted:#a3aabb; --line:#2c3446;
+  --accent:#f0705a; --accent-ink:#12161f; --teal:#3fbfb6; --warn:#e3a05b; --bad:#f07b6a; --good:#3fbfb6;
+  --bar-sys:#3a4358; --bar-game:#f0705a; --bar-free:#3fbfb633; color-scheme:dark}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--f-body);font-size:16px;line-height:1.55}
+.wrap{max-width:760px;margin:0 auto;padding-block:28px 48px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));display:flex;flex-direction:column;gap:22px}
+header{display:flex;flex-direction:column;gap:6px}
+.eyebrow{font-family:var(--f-mono);font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted)}
+h1{font-family:var(--f-display);font-size:clamp(44px,11vw,72px);line-height:.95;margin:0;letter-spacing:.01em;text-wrap:balance}
+h1 span{color:var(--accent)}
+.lede{margin:0;color:var(--muted);max-width:60ch}
+nav{display:flex;flex-wrap:wrap;gap:8px}
+nav a{font-size:14px;color:var(--ink);text-decoration:none;border:1px solid var(--line);border-radius:999px;padding:5px 12px;background:var(--surface)}
+nav a:hover,nav a:focus-visible{border-color:var(--accent)}
+section{background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:20px;display:flex;flex-direction:column;gap:14px;min-width:0}
+h2{font-family:var(--f-display);font-size:30px;line-height:1.05;margin:0;text-wrap:balance}
+h3{font-size:16px;margin:0}
+p{margin:0}
+.muted{color:var(--muted);font-size:14px}
+.big{font-family:var(--f-mono);font-size:clamp(28px,8vw,40px);font-variant-numeric:tabular-nums;line-height:1.1}
+.row{display:flex;flex-wrap:wrap;gap:12px;align-items:flex-end}
+.field{display:flex;flex-direction:column;gap:4px;min-width:0;flex:1 1 180px}
+label{font-size:13px;font-weight:600;color:var(--muted)}
+select,input{font:inherit;font-size:16px;color:var(--ink);background:var(--bg);border:1px solid var(--line);border-radius:8px;padding:10px 12px;width:100%}
+select:focus-visible,input:focus-visible,a:focus-visible,button:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.bar{display:flex;height:26px;border-radius:6px;overflow:hidden;border:1px solid var(--line);background:var(--bar-free)}
+.bar div{height:100%}
+.seg-used{background:var(--bar-sys)} .seg-game{background:var(--bar-game)}
+.legend{display:flex;flex-wrap:wrap;gap:6px 16px;font-size:13px;color:var(--muted)}
+.legend i{display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:6px;vertical-align:middle}
+.verdict{font-weight:600;padding:10px 12px;border-radius:8px;border:1px solid var(--line)}
+.verdict.good{color:var(--good);border-color:var(--good)}
+.verdict.warn{color:var(--warn);border-color:var(--warn)}
+.verdict.bad{color:var(--bad);border-color:var(--bad)}
+.tablewrap{overflow-x:auto}
+table{border-collapse:collapse;width:100%;font-size:15px}
+th,td{text-align:left;padding:8px 10px;border-bottom:1px solid var(--line);white-space:nowrap}
+th{font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);font-weight:600}
+td.num{font-family:var(--f-mono);font-variant-numeric:tabular-nums}
+.gear{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:12px}
+.gear div{border:1px solid var(--line);border-radius:8px;padding:14px;display:flex;flex-direction:column;gap:8px;min-width:0}
+.btn{display:inline-block;align-self:flex-start;background:var(--accent);color:var(--accent-ink);text-decoration:none;font-weight:600;font-size:14px;padding:8px 14px;border-radius:8px}
+ul{margin:0;padding-left:20px;display:flex;flex-direction:column;gap:6px}
+details{border-top:1px solid var(--line);padding-top:10px}
+details:first-of-type{border-top:0;padding-top:0}
+summary{cursor:pointer;font-weight:600}
+details p{margin-top:6px;color:var(--muted)}
+footer{font-size:13px;color:var(--muted);display:flex;flex-direction:column;gap:8px}
+footer a{color:var(--muted)}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+</head><body>
+<div class="wrap">
+<header>
+  <div class="eyebrow">GTA VI console setup · checked Nov 18, 2026</div>
+  <h1>Will it <span>fit?</span></h1>
+  <p class="lede">GTA VI needs up to 212 GB. Check your console's space, when it unlocks, how long the download takes and what to buy if you're short.</p>
+  <nav aria-label="Sections"><a href="#unlock">Unlock time</a><a href="#fit">Storage check</a><a href="#download">Download time</a><a href="#gear">Out of space</a><a href="#faq">FAQ</a></nav>
+</header>
+
+<section id="unlock" aria-labelledby="h-unlock">
+  <h2 id="h-unlock">When does GTA VI unlock?</h2>
+  <div class="big" id="countdown" aria-live="polite">Loading…</div>
+  <p id="local-unlock" class="muted"></p>
+  <div class="tablewrap"><table>
+    <thead><tr><th>US time zone</th><th>Unlocks</th></tr></thead>
+    <tbody>
+      <tr><td>Eastern</td><td class="num">12:00 AM Thu, Nov 19</td></tr>
+      <tr><td>Central</td><td class="num">11:00 PM Wed, Nov 18</td></tr>
+      <tr><td>Mountain</td><td class="num">10:00 PM Wed, Nov 18</td></tr>
+      <tr><td>Pacific</td><td class="num">9:00 PM Wed, Nov 18</td></tr>
+      <tr><td>Alaska</td><td class="num">8:00 PM Wed, Nov 18</td></tr>
+      <tr><td>Hawaii</td><td class="num">7:00 PM Wed, Nov 18</td></tr>
+    </tbody>
+  </table></div>
+  <p class="muted">Rockstar says midnight local time on November 19 in every region. US stores key the launch to Eastern time, so the rest of the US gets it the night before. Same for PS5 and Xbox Series X|S.</p>
+</section>
+
+<section id="fit" aria-labelledby="h-fit">
+  <h2 id="h-fit">Will GTA VI fit on my console?</h2>
+  <div class="row">
+    <div class="field"><label for="console">Console</label>
+      <select id="console">
+        <option value="667">PS5 (original, 825 GB drive)</option>
+        <option value="848">PS5 Slim (1 TB)</option>
+        <option value="1890">PS5 Pro (2 TB)</option>
+        <option value="802">Xbox Series X (1 TB)</option>
+        <option value="364" selected>Xbox Series S (512 GB)</option>
+      </select></div>
+    <div class="field"><label for="used">Space your other games use (GB)</label>
+      <input id="used" type="number" inputmode="numeric" min="0" step="1" value="150"></div>
+  </div>
+  <div class="bar" role="img" id="bar" aria-label="Storage bar"><div class="seg-used" id="seg-used"></div><div class="seg-game" id="seg-game"></div></div>
+  <div class="legend"><span><i style="background:var(--bar-sys)"></i>Your other games</span><span><i style="background:var(--bar-game)"></i>GTA VI (212 GB)</span><span><i style="background:var(--bar-free)"></i>Free after install</span></div>
+  <p class="verdict" id="verdict"></p>
+  <p class="muted">Usable space is what's left after the system reserve, not the number on the box. Check yours under Settings, then Storage. Leave some room for updates on top of the 212 GB.</p>
+</section>
+
+<section id="download" aria-labelledby="h-dl">
+  <h2 id="h-dl">How long is the download?</h2>
+  <div class="row">
+    <div class="field"><label for="speed">Your download speed (Mbps)</label>
+      <input id="speed" type="number" inputmode="numeric" min="1" step="1" value="300"></div>
+    <div class="field"><div class="big" id="dltime">–</div></div>
+  </div>
+  <p class="muted">Based on 212 GB at full speed. Real downloads often run slower than your plan speed, especially on launch night when everyone downloads at once, and over Wi-Fi. A wired connection helps.</p>
+</section>
+
+<section id="gear" aria-labelledby="h-gear">
+  <h2 id="h-gear">Out of space? What actually works</h2>
+  <p>A USB drive can store games, but it can't run PS5 or Xbox Series games. GTA VI has to run from internal storage or a supported expansion drive.</p>
+  <div class="gear">
+    <div><h3>PS5 and PS5 Pro</h3>
+      <ul><li>M.2 NVMe SSD, PCIe Gen4</li><li>5,500 MB/s read or faster</li><li>Heatsink built in or added</li><li>2 TB leaves room for GTA VI and your other big games</li></ul>
+      <a class="btn aff" data-q="ps5 m.2 ssd heatsink 2tb" href="https://www.amazon.com/s?k=ps5+m.2+ssd+heatsink+2tb" rel="sponsored noopener" target="_blank">See PS5 SSDs</a></div>
+    <div><h3>Xbox Series X and S</h3>
+      <ul><li>Only a Storage Expansion Card runs Series games from extra storage</li><li>Plugs into the slot on the back, no screwdriver</li><li>Series S owners feel the squeeze first</li></ul>
+      <a class="btn aff" data-q="xbox series storage expansion card" href="https://www.amazon.com/s?k=xbox+series+storage+expansion+card" rel="sponsored noopener" target="_blank">See expansion cards</a></div>
+  </div>
+  <p class="muted">Sony's full drive rules are on PlayStation's support site. Check them before you buy.</p>
+</section>
+
+<section id="faq" aria-labelledby="h-faq">
+  <h2 id="h-faq">Quick answers</h2>
+  <details open><summary>How big is the GTA VI download?</summary><p>Rockstar says the preload needs up to 212 GB, depending on the console.</p></details>
+  <details><summary>Does GTA VI run at 60 FPS?</summary><p>No. Rockstar targets 30 FPS on PS5 and Xbox Series X|S. There's no 60 FPS mode at launch.</p></details>
+  <details><summary>What does PS5 Pro add?</summary><p>PlayStation Spectral Super Resolution (PSSR) and ray-traced shadows that the other consoles don't get. It still targets 30 FPS.</p></details>
+  <details><summary>Will GTA VI fit on an Xbox Series S?</summary><p>Yes, on an empty 512 GB Series S, which has 364 GB usable. That leaves about 150 GB for everything else, so most players will need to delete games or add an expansion card.</p></details>
+  <details><summary>Can I play GTA VI from an external USB drive?</summary><p>No. USB drives can hold PS5 and Xbox Series games but can't run them. Use internal storage, a PS5 M.2 SSD or an Xbox expansion card.</p></details>
+  <details><summary>Is GTA VI on PC?</summary><p>Not at launch. It's PS5 and Xbox Series X|S only, and there's no PC date yet.</p></details>
+</section>
+
+<footer>
+  <p>Not affiliated with, endorsed by or sponsored by Rockstar Games or Take-Two Interactive. GTA and Grand Theft Auto are their trademarks.</p>
+  <p>As an Amazon Associate I earn from qualifying purchases. Some links on this page are affiliate links, and buying through them costs you nothing extra.</p>
+  <p>Sources: Rockstar's release details as reported by Forbes (Nov 12 and Nov 16, 2026); usable storage from PSU (PS5 Pro), The FPS Review (PS5, PS5 Slim, Series X) and GameSpot (Series S); Sony's M.2 SSD requirements as reported by Laptop Mag.</p>
+</footer>
+</div>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[
+{"@type":"Question","name":"How big is the GTA VI download?","acceptedAnswer":{"@type":"Answer","text":"Rockstar says the preload needs up to 212 GB, depending on the console."}},
+{"@type":"Question","name":"Does GTA VI run at 60 FPS?","acceptedAnswer":{"@type":"Answer","text":"No. Rockstar targets 30 FPS on PS5 and Xbox Series X|S. There's no 60 FPS mode at launch."}},
+{"@type":"Question","name":"Will GTA VI fit on an Xbox Series S?","acceptedAnswer":{"@type":"Answer","text":"Yes, on an empty 512 GB Series S, which has 364 GB usable. That leaves about 150 GB for everything else."}},
+{"@type":"Question","name":"Can I play GTA VI from an external USB drive?","acceptedAnswer":{"@type":"Answer","text":"No. USB drives can hold PS5 and Xbox Series games but can't run them."}},
+{"@type":"Question","name":"What time does GTA VI unlock in the US?","acceptedAnswer":{"@type":"Answer","text":"Midnight Eastern on November 19, 2026, which is 9 PM Pacific on November 18."}}]}
+</script>
+<script>
+(function(){
+  var AFFILIATE_TAG = ""; // Fro's Amazon Associates tag goes here, e.g. "name-20"
+  var GAME_GB = 212, US_UNLOCK = Date.UTC(2026,10,19,5,0,0);
+  if (AFFILIATE_TAG) document.querySelectorAll("a.aff").forEach(function(a){ a.href += "&tag=" + encodeURIComponent(AFFILIATE_TAG); });
+  var $ = function(id){ return document.getElementById(id); };
+  function tick(){
+    var ms = US_UNLOCK - Date.now();
+    if (ms <= 0){ $("countdown").textContent = "Unlocked in the US"; return; }
+    var h = Math.floor(ms/3600000), m = Math.floor(ms%3600000/60000), s = Math.floor(ms%60000/1000);
+    var d = Math.floor(h/24); h = h%24;
+    $("countdown").textContent = (d? d+"d ":"") + h+"h " + String(m).padStart(2,"0")+"m " + String(s).padStart(2,"0")+"s";
+  }
+  try {
+    var local = new Date(US_UNLOCK).toLocaleString([], {weekday:"short", month:"short", day:"numeric", hour:"numeric", minute:"2-digit", timeZoneName:"short"});
+    $("local-unlock").textContent = "Countdown to the US unlock. In your time zone that's " + local + ". Outside the US, it's midnight your local time on November 19.";
+  } catch(e){}
+  tick(); setInterval(tick, 1000);
+  function fit(){
+    var cap = +$("console").value, used = Math.max(0, +$("used").value || 0);
+    var free = cap - used - GAME_GB;
+    var pu = Math.min(100, used/cap*100), pg = Math.min(100-pu, GAME_GB/cap*100);
+    $("seg-used").style.width = pu+"%"; $("seg-game").style.width = pg+"%";
+    $("bar").setAttribute("aria-label", "Usable "+cap+" GB: "+used+" GB other games, "+GAME_GB+" GB GTA VI, "+Math.max(free,0)+" GB free");
+    var v = $("verdict");
+    if (free < 0){ v.className="verdict bad"; v.textContent = "Won't fit. You need about " + (-free) + " GB more. Delete games or add storage."; }
+    else if (free < 50){ v.className="verdict warn"; v.textContent = "Fits, with only " + free + " GB left. Updates may push you over."; }
+    else { v.className="verdict good"; v.textContent = "Fits, with " + free + " GB left after install."; }
+  }
+  function dl(){
+    var mbps = +$("speed").value;
+    if (!(mbps > 0)){ $("dltime").textContent = "–"; return; }
+    var secs = GAME_GB*8000/mbps, h = Math.floor(secs/3600), m = Math.round(secs%3600/60);
+    if (m === 60){ h++; m = 0; }
+    $("dltime").textContent = (h? h+"h ":"") + m + "m";
+  }
+  ["console","used"].forEach(function(id){ $(id).addEventListener("input", fit); });
+  $("speed").addEventListener("input", dl);
+  fit(); dl();
+})();
+</script>
+</body></html>
